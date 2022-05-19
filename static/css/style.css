@@ -1,0 +1,11 @@
+.jumbotron {
+    color: #6aff00;
+    background-image: url(../image/NBA.jpg);
+    background-size: 90% 100% ;
+    text-align: center;
+}
+
+div{
+    margin: auto;
+    text-align: center;
+}
