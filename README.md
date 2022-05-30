@@ -13,6 +13,9 @@ Using multiple datasets with data elements on NBA Player salaires, as well as wi
 - NBA Play Salary Data (2021 - 2022 Season & Beyond)
 - NBA Team Standings, Wins, Lossess (2016 through 2021 NBA Regluar Seasons)
 
+## Presentation
+ - https://docs.google.com/presentation/d/1jhaM10uesy7SOXLdY-P-Jz-0pnyyfjaD/edit?usp=sharing&ouid=111472340599065338820&rtpof=true&sd=true
+
 ## Hypotheses to test in ML Model
 
 Teams who generally spend more on their payroll are more likely to win more games during the regular NBA season. 
