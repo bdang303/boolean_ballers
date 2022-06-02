@@ -18,28 +18,30 @@
         <nav class="navbar navbar-expand-1g navbar-dark bg-dark">
             <a class="navbar-brand" href="https://github.com/bdang303/boolean_ballers">GitHub Repository</a>
         </nav>
-        <div class="jumbotron">
+      <div class="jumbotron">
             <h1 class="display-4">NBA Salary</h1>
 
         </div>
         <div class="container-fluid">
             <div class="col-md-6">
-                <h3 class="center">Salary Cap Estimate</h3>
-                <input></input>
+                <h3 class="center">Team</h3>
+                <label for="Team"></label>
+                <input type="text" placeholder="Golden State" id="Team"/>
             </div>
 
             <div class="col-md-6">
-                <h3 class="center">Win pct</h3>
-                <input></input>
+                <h3 class="center">Season</h3>
+                <label for="Season"></label>
+                <input type="text" placeholder="2021/2022" id="Season"/>
 
             </div>
         </div>
-        <button type="button">Go</button>
+        <button id="filter-btn" type="button" class="btn btn-dark">Go</button>
     </div>
     <div class="col-md-1">
     </div>
     <div class="col-md-10">
-        <table class="table table-striped">
+        <table class="table table-hover">
             <h1 style="text-align:center">Data with Scores</h1>
             <thead>
                 <tr>
@@ -49,6 +51,28 @@
                     <th class="table-head" style="text-align:center">Wins</th>
                     <th class="table-head" style="text-align:center">Loss</th>
                     <th class="table-head" style="text-align:center">Pct</th>
+                    <th class="table-head" style="text-align:center">FG</th>
+                    <th class="table-head" style="text-align:center">FGA</th>
+                    <th class="table-head" style="text-align:center">FG%</th>
+                    <th class="table-head" style="text-align:center">3P</th>
+                    <th class="table-head" style="text-align:center">3PA</th>
+                    <th class="table-head" style="text-align:center">3P%</th>
+                    <th class="table-head" style="text-align:center">2P</th>
+                    <th class="table-head" style="text-align:center">2PA</th>
+                    <th class="table-head" style="text-align:center">2P%</th>
+                    <th class="table-head" style="text-align:center">FT</th>
+                    <th class="table-head" style="text-align:center">FTA</th>
+                    <th class="table-head" style="text-align:center">FT%</th>
+                    <th class="table-head" style="text-align:center">ORB</th>
+                    <th class="table-head" style="text-align:center">DRB</th>
+                    <th class="table-head" style="text-align:center">TRB</th>
+                    <th class="table-head" style="text-align:center">AST</th>
+                    <th class="table-head" style="text-align:center">STL</th>
+                    <th class="table-head" style="text-align:center">BLK</th>
+                    <th class="table-head" style="text-align:center">TOV</th>
+                    <th class="table-head" style="text-align:center">PF</th>
+                    <th class="table-head" style="text-align:center">PTS</th>
+
                 </tr>
             </thead>
             <tbody></tbody>
@@ -56,7 +80,7 @@
         </table>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-    <script src="static/Data/NBA_Salary.js"></script>
+    <script src="static/Data/NBA_Database.js"></script>
     <script src="app.js"></script>
 </body>
 

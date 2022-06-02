@@ -1,7 +1,7 @@
 .jumbotron {
-    color: #6aff00;
-    background-image: url(../image/NBA.jpg);
-    background-size: 90% 100% ;
+    color: #29a3ab;
+    background-image:url(../image/NBA5.jpg);
+    background-size: 100% 100% ;
     text-align: center;
 }
 
@@ -9,3 +9,19 @@ div{
     margin: auto;
     text-align: center;
 }
+
+body {
+    background-image: url(../image/NBA4.jpg);
+    background-color:#a38d8d;
+    background-size: 100%;
+}
+
+th{
+    color:#d81717;
+}
+
+h1{
+    color: rgb(158, 148, 8);
+    font-family: cursive;
+}
+
