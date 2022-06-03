@@ -23,6 +23,35 @@ Project is centered around sports analytics with a focus on data from the Nation
 
 Using multiple datasets with data elements on NBA Player salaires, as well as win totals from the 2016 through 2021 NBA Regular Seasons, our project hopes to outline an algorithm that predicts the number of wins based on player salaries with a combination of statistics. 
 
+## Getting Started
+
+
+## Exploratory Data
+
+
+## Data Analysis & Machine Learning 
+
+
+## Database
+
+
+## Project Dashboard
+
+
+## Conclusion  
+
+
+## Resources
+
+
+
+
+
+
+
+
+
+
 ## Data Source(s)
 
 - NBA Play Salary Data (2021 - 2022 Season & Beyond)
