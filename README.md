@@ -30,13 +30,13 @@ Using multiple datasets with data elements on NBA Player salaires, as well as wi
 
 
 ## Data Analysis & Machine Learning 
-
+Bobby
 
 ## Database
+Johnathan
 
-
-## Project Dashboard
-
+## Project Website
+Khanh
 
 ## Conclusion  
 
