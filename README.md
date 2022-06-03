@@ -12,11 +12,12 @@ Project is centered around sports analytics with a focus on data from the Nation
 ## Group Communication Protocols
 * Throughout the length of this project our group was committed to checking slack a minimum of once a day and meeting 3 times a week.
 * In our meetings we were to share the work that we had done in the days prior and go over action items for everybody to finish by the next meeting. 
+
 **Team Responsibilities**
-Bobby Dang - Github and advanced ML
-Zach Pausa - Data gleaning and early ML
-Khanh Nguyen - HTML Website 
-Jonathan Moreno - Database and Tableau 
+* Bobby Dang - Github and advanced ML
+* Zach Pausa - Data gleaning and early ML
+* Khanh Nguyen - HTML Website 
+* Jonathan Moreno - Database and Tableau 
 
 ## Topic Details
 
