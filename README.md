@@ -1,8 +1,8 @@
-# boolean_ballers
+# Boolean_Ballers
 
 ## Overview
 
-Project is centered around sports analytics with a focus on data from the National Basketbal Association (NBA). 
+Project is centered around sports analytics with a focus on data from the National Basketbal Association (NBA). Our goal is to determine if there is any correlation between NBA players salary per team and wins during the regular seaons and post season. We also want to be able to look at various statistics within a basketball team and see if there is a certain stat that provides teams with more success, I.E. FGA, 3P%, ASTs. We selected this topic because we want to see what the potential outcomes for future teams might be based on statitics of players and team salary. Furthermore, we feel that based on this data we can potentially predict Win PCT and post season outcomes a year prior to the results. 
 
 ## Topic Details
 
