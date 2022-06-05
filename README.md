@@ -48,7 +48,7 @@ The Random Forest model ended up being our preferred model as we were able to ac
 ![Random Forest Ranker]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/RandoForest_FeatureRank.png)
 
 ## Database
-Johnathan
+After finding several NBA data sources on Kaggle, we created a database including regular season NBA stastics, each teams payroll, and their total wins for the past five seasons. We later built on this database by including playoff data to further our analysis. Database was stored in both CSV and Excel files for our analysis.
 
 ## Project Website
 Khanh
