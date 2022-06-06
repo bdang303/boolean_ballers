@@ -1,0 +1,35 @@
+
+\\.jumbotron {
+    color: #29a3ab;
+    background-image:url(../image/NBA14.png);
+    background-position: center center;
+    background-size: cover ;
+    text-align: center;
+}
+
+div{
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background-image:url(../image/NBA2.jpg);
+    background-position: center center;
+    background-color:#92cc16e1;
+    background-size:100%;
+}
+
+th{
+    color:hsla(57, 67%, 27%, 0.7);
+    font-size:medium;
+}
+
+h1{
+    font-family:garamond;
+    font-size: 80px;
+    background-color: transparent;
+}
+
+h3{
+    color:#29ab3d;
+}

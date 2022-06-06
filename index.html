@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolean Ballers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css" />
+</head>
+
+<body>
+
+    <!-- Start of dashboard-->
+    <div class="container">
+
+        <nav class="navbar navbar-expand-1g navbar-dark bg-dark">
+            <a class="navbar-brand" href="https://github.com/bdang303/boolean_ballers">GitHub Repository</a>
+        </nav>
+        <div class="p-5 text-center bg-image rounded-3" style="
+        background-image: url(../image/NBA2.png);
+        height: 400px;
+      ">
+            <div class="mask" style="background-color: transparent;">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                    <h1 class="display-4" style="color:rgb(238, 255, 0)">NBA Data with Scores</h1>
+                </div>
+                </div>
+                </div>
+                
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <h3 class="center">Team</h3>
+                        <label for="Team"></label>
+                        <input type="text" placeholder="Golden State" id="Team" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <h3 class="center">Season</h3>
+                        <label for="Season"></label>
+                        <input type="text" placeholder="2021/2022" id="Season" />
+
+                    </div>
+                </div>
+                <button id="filter-btn" type="button" class="btn btn-dark">Go</button>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+                <table class="table table-hover table-striped">
+                    <h1 style="text-align:center"></h1>
+                    <h1 style="text-align:center"></h1>
+                    <thead>
+                        <tr style="background-color:#FFEFD3">
+                            <th class="table-head" style="text-align:center">Team</th>
+                            <th class="table-head" style="text-align:center">Salary</th>
+                            <th class="table-head" style="text-align:center">Season</th>
+                            <th class="table-head" style="text-align:center">Wins</th>
+                            <th class="table-head" style="text-align:center">Loss</th>
+                            <th class="table-head" style="text-align:center">Pct</th>
+                            <th class="table-head" style="text-align:center">FG</th>
+                            <th class="table-head" style="text-align:center">FGA</th>
+                            <th class="table-head" style="text-align:center">FG%</th>
+                            <th class="table-head" style="text-align:center">3P</th>
+                            <th class="table-head" style="text-align:center">3PA</th>
+                            <th class="table-head" style="text-align:center">3P%</th>
+                            <th class="table-head" style="text-align:center">2P</th>
+                            <th class="table-head" style="text-align:center">2PA</th>
+                            <th class="table-head" style="text-align:center">2P%</th>
+                            <th class="table-head" style="text-align:center">FT</th>
+                            <th class="table-head" style="text-align:center">FTA</th>
+                            <th class="table-head" style="text-align:center">FT%</th>
+                            <th class="table-head" style="text-align:center">ORB</th>
+                            <th class="table-head" style="text-align:center">DRB</th>
+                            <th class="table-head" style="text-align:center">TRB</th>
+                            <th class="table-head" style="text-align:center">AST</th>
+                            <th class="table-head" style="text-align:center">STL</th>
+                            <th class="table-head" style="text-align:center">BLK</th>
+                            <th class="table-head" style="text-align:center">TOV</th>
+                            <th class="table-head" style="text-align:center">PF</th>
+                            <th class="table-head" style="text-align:center">PTS</th>
+
+                        </tr>
+                    </thead>
+                    <tbody bgcolor=#FBC5D4></tbody>
+
+                </table>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+            <script src="Data/NBA_Database.js"></script>
+            <script src="app.js"></script>
+</body>
+
+</html>
