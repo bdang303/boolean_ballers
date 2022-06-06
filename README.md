@@ -26,9 +26,6 @@ Using multiple datasets with data elements on NBA Player salaries, as well as wi
 ## Getting Started
 We started the project by getting data from various cites. Afterwards we put them into csv files named "NBA_Salary", "nba_team_stats_00_to_21" and "NBA_Player_Salaries". After combining several columns of data into "NBA_Salary" Once we merged the data to one CSV we were able to create one column as an X axis and another as a Y axis. From there we went into the Machine Learning stage of the project. 
 
-## Exploratory Data
-
-
 ## Data Analysis & Machine Learning 
 Using the datasets we’ve gathered and joined, there were 3 different machine learning models utilized to achieve our desired outcome:
 
@@ -54,17 +51,7 @@ After finding several NBA data sources on Kaggle, we created a database includin
 Khanh
 
 ## Conclusion  
-
-
-
-
-
-
-
-
-
-
-
+The results indicated that we can predict win percentage with a 95% accuracy rating via the ML that we created. While the accuracy rating is high we are forgetting very important concepts to the game of Basketball. For starters, the stats that we used were mainly focused around the offensive side of the ball and fail to take into account things such as, rebounds, steals, and defensive efficiency. These stats are very important to predicting how a team will react when faced with different adversity. We also fail to indicate the advantages of being home or away which provide players with more comfort and slightly more rest. Lastly, we have no way of telling what the impact of injured or absent players are. If our biggest star were not playing, our ML has no way of factoring in that disadvantage. Even so, we believe that this model can be tuned up to add these additional factors, while maintaining a high level of accuracy. 
 
 
 ## Data Source(s)
