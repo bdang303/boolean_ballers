@@ -24,7 +24,7 @@ Project is centered around sports analytics with a focus on data from the Nation
 Using multiple datasets with data elements on NBA Player salaries, as well as win totals from the 2016 through 2021 NBA Regular Seasons, our project hopes to outline an algorithm that predicts whether or not a team will make the playoffs to contend for a championship, based on player salaries with a combination of other team statistics. 
 
 ## Getting Started
-
+We started the project by getting data from various cites. Afterwards we put them into csv files named "NBA_Salary", "nba_team_stats_00_to_21" and "NBA_Player_Salaries". After combining several columns of data into "NBA_Salary" Once we merged the data to one CSV we 
 
 ## Exploratory Data
 
@@ -56,7 +56,7 @@ Khanh
 ## Conclusion  
 
 
-## Resources
+
 
 
 
