@@ -48,7 +48,7 @@ The Random Forest model ended up being our preferred model as we were able to ac
 After finding several NBA data sources on Kaggle, we created a database including regular season NBA stastics, each teams payroll, and their total wins for the past five seasons. We later built on this database by including playoff data to further our analysis. Database was stored in both CSV and Excel files for our analysis.
 
 ## Project Website
-Khanh
+The purpose of our website is to show the audiences further information for each NBA team for the most recent 5 seasons including this year. Notable features of the website are a directed link to our github repository with 1 click and also a filter function to find desired team by name and season. We also use bootstrap to make the website visually appealing. 
 
 ## Conclusion  
 The results indicated that we can predict win percentage with a 95% accuracy rating via the ML that we created. While the accuracy rating is high we are forgetting very important concepts to the game of Basketball. For starters, the stats that we used were mainly focused around the offensive side of the ball and fail to take into account things such as, rebounds, steals, and defensive efficiency. These stats are very important to predicting how a team will react when faced with different adversity. We also fail to indicate the advantages of being home or away which provide players with more comfort and slightly more rest. Lastly, we have no way of telling what the impact of injured or absent players are. If our biggest star were not playing, our ML has no way of factoring in that disadvantage. Even so, we believe that this model can be tuned up to add these additional factors, while maintaining a high level of accuracy. 
