@@ -36,10 +36,10 @@ After finding several NBA data sources on Kaggle, we created a database includin
 
 Teams who generally spend more on their payroll are more likely to win more games during the regular NBA season. 
 
-Using the datasets weÕre gathered from various sources and then joined, there were 3 different machine learning models we attempted to utilize to achieve our desired outcome.
+Using the datasets we gathered from various sources and then joined, there were 3 different machine learning models we attempted to utilize to achieve our desired outcome.
 
 ### Data Preparation
-Prior to feeding the data sets into our models, our group did have to do some slight cleaning. As we pulled our data from fairly reliable sources, there wasnÕt a significant amount of effort required to clean the data itself. A few key steps that were taken included:
+Prior to feeding the data sets into our models, our group did have to do some slight cleaning. As we pulled our data from fairly reliable sources, there was not a significant amount of effort required to clean the data itself. A few key steps that were taken included:
 
 * Determine which statistical fields from our datasets we wanted to feed into our models as our features. Many of the existing data elements included in our dataset were highly correlated, such as 3-Point Shots Attempted, 3-Point Shots Made, & 3-Point Shot %. We included only made & % to reduce the number of correlated features.
 * Data scaling was another key part of our process as the features we included varied in numerical values from 0.01 to 150.00, representing shot attempts as well as percentage ratios. 
