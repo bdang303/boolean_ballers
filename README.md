@@ -26,26 +26,46 @@ Using multiple datasets with data elements on NBA Player salaries, as well as wi
 ## Getting Started
 We started the project by getting data from various cites. Afterwards we put them into csv files named "NBA_Salary", "nba_team_stats_00_to_21" and "NBA_Player_Salaries". After combining several columns of data into "NBA_Salary" Once we merged the data to one CSV we were able to create one column as an X axis and another as a Y axis. From there we went into the Machine Learning stage of the project. 
 
-## Data Analysis & Machine Learning 
-Using the datasets we‚Äôve gathered and joined, there were 3 different machine learning models utilized to achieve our desired outcome:
+## Database
+After finding several NBA data sources on Kaggle, we created a database including regular season NBA statistics, each team’s payroll, and their total wins for the past five seasons. We later built on this database by including playoff data to further our analysis. Database was stored in both CSV and Excel files for our analysis.
 
-### Linear Regression
-This was a basic model that was trained to take into account 2 features (Team Payroll & Win %). The result was a prediction that for every $1M a team spent on their payroll, would result in a 0.09% Win Rate. 
+
+## Data Analysis & Machine Learning 
+
+### Hypotheses to test in ML Model
+
+Teams who generally spend more on their payroll are more likely to win more games during the regular NBA season. 
+
+Using the datasets we’re gathered from various sources and then joined, there were 3 different machine learning models we attempted to utilize to achieve our desired outcome.
+
+### Data Preparation
+Prior to feeding the data sets into our models, our group did have to do some slight cleaning. As we pulled our data from fairly reliable sources, there wasn’t a significant amount of effort required to clean the data itself. A few key steps that were taken included:
+
+* Determine which statistical fields from our datasets we wanted to feed into our models as our features. Many of the existing data elements included in our dataset were highly correlated, such as 3-Point Shots Attempted, 3-Point Shots Made, & 3-Point Shot %. We included only made & % to reduce the number of correlated features.
+* Data scaling was another key part of our process as the features we included varied in numerical values from 0.01 to 150.00, representing shot attempts as well as percentage ratios. 
+
+#### Linear Regression
+Our initial thought was to create a basic model that was trained to take into account 2 features (Team Payroll & Win %). The result was a prediction that for every $1M a team spent on their payroll, would result in a 0.09% Win Rate. Though there was a positive correlation, you can see from the scatterplot below there is a blob of data points congregated in a specific region. We did not believe this approach would provide much value. 
 
 ![Linear Reg Graph]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/LinRegGraph.png)
 
-### Logistic Regression
-With a classifier model, we wanted to determine an outcome, being whether or not a team would make the playoffs based on a number of features such as Payroll, Win %, Points, Rebounds, Steals, etc. Our model resulted in an accuracy score of 53%
+#### Logistic Regression
+Rather than trying to determine a numerical predictor, we wanted to predict an outcome, being whether or not a team would make the playoffs based on all these different factors such as Payroll, Average Points Scored Per Game, Wins, Losses, Rebounds, Assists, etc. Because of that, we figured a classifier model was the best accomplish this, and that led us to building a logistic regression model, that resulted in an accuracy score of 53%.
 
 ![Logistic Reg Score]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/ML_LogReg_Score.png)
 
-### Random Forest Classifier
-The Random Forest model ended up being our preferred model as we were able to achieve an accuracy score of 97%. In addition, we were able to utilize this model to rank the features and how each metric influenced whether or not a team made the playoffs. 
+#### Random Forest Classifier
+The dataset we were utilizing had over 20 features, and we also wanted to determine which of these features had the highest influence in determining whether or not a team made the playoffs. Based on this requirement, we landed on the approach of using the Random Forest Classifier model which allowed us to rank all of our features, so we went ahead and built that, resulting in a model with a 50% accuracy score.
+
+Our features ranker determined that Win %, Wins, Loses, obviously had significant influence on whether or not a team made playoffs, however, it was surprising that 3-Point % as well as Payroll also had a reasonable influence.
 
 ![Random Forest Ranker]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/RandoForest_FeatureRank.png)
 
-## Database
-After finding several NBA data sources on Kaggle, we created a database including regular season NBA stastics, each teams payroll, and their total wins for the past five seasons. We later built on this database by including playoff data to further our analysis. Database was stored in both CSV and Excel files for our analysis.
+![Random Forest Accuracy Score]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/RandoForest_FeatureRank.png)
+
+![Random Forest Confusion Matrix]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/RandoForest_FeatureRank.png)
+
+
 
 ## Project Website
 The purpose of our website is to show the audiences further information for each NBA team for the most recent 5 seasons including this year. Notable features of the website are a directed link to our github repository with 1 click and also a filter function to find desired team by name and season. We also use bootstrap to make the website visually appealing. 
@@ -62,8 +82,3 @@ The results indicated that we can predict win percentage with a 95% accuracy rat
 ## Presentation
  - https://docs.google.com/presentation/d/1jhaM10uesy7SOXLdY-P-Jz-0pnyyfjaD/edit?usp=sharing&ouid=111472340599065338820&rtpof=true&sd=true
 
-## Hypotheses to test in ML Model
-
-Teams who generally spend more on their payroll are more likely to win more games during the regular NBA season. 
-
-## Testing
