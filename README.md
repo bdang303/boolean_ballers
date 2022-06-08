@@ -57,7 +57,7 @@ Rather than trying to determine a numerical predictor, we wanted to predict an o
 #### Random Forest Classifier
 The dataset we were utilizing had over 20 features, and we also wanted to determine which of these features had the highest influence in determining whether or not a team made the playoffs. Based on this requirement, we landed on the approach of using the Random Forest Classifier model which allowed us to rank all of our features, so we went ahead and built that, resulting in a model with a 50% accuracy score.
 
-![Random Forest Accuracy Score]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/RandoForest_FeatureRank.png](https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/Rando_Forest_Score2.png)
+![Random Forest Accuracy Score]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/Rando_Forest_Score2.png)
 
 Our features ranker determined that Win %, Wins, Loses, obviously had significant influence on whether or not a team made playoffs, however, it was surprising that 3-Point % as well as Payroll also had a reasonable influence.
 
@@ -65,7 +65,7 @@ Our features ranker determined that Win %, Wins, Loses, obviously had significan
 
 Our model was able to predict with 50% accuracy whether or not a team would make the playoffs based on our features
 
-![Random Forest Confusion Matrix]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/RandoForest_FeatureRank.png](https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/Rando_Forest_CMatrix.png))
+![Random Forest Confusion Matrix]( https://github.com/bdang303/boolean_ballers/blob/main/Images/ML%20Code%20Shots/Rando_Forest_CMatrix.png))
 
 ## Project Website
 The purpose of our website is to show the audiences further information for each NBA team for the most recent 5 seasons including this year. Notable features of the website are a directed link to our github repository with 1 click and also a filter function to find desired team by name and season. We also use bootstrap to make the website visually appealing. 
