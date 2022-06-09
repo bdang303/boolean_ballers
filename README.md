@@ -27,16 +27,10 @@ Using multiple datasets with data elements on NBA Player salaries, as well as wi
 We started the project by getting data from various cites. Afterwards we put them into csv files named "NBA_Salary", "nba_team_stats_00_to_21" and "NBA_Player_Salaries". After combining several columns of data into "NBA_Salary" Once we merged the data to one CSV we were able to create one column as an X axis and another as a Y axis. From there we went into the Machine Learning stage of the project. 
 
 ## Database
-After finding several NBA data sources on Kaggle, we created a database including regular season NBA statistics, each teamÕs payroll, and their total wins for the past five seasons. We later built on this database by including playoff data to further our analysis. Database was stored in both CSV and Excel files for our analysis.
+After finding several NBA data sources on Kaggle, we created a database including regular season NBA statistics, each teams payroll, and their total wins for the past five seasons. We later built on this database by including playoff data to further our analysis. Database was stored in both CSV and Excel files for our analysis. After getting the stats for everything we needed with the CSVs, we went in and connected them using QuickDBD. 
 
-## Dashboard
-When creating our dashboard we wanted to include data visualizations that were both interactive and communicated our findings clearly. We decided that using Tableau was the best option for creating these data visualizations, especially since we were working with CSV's. It was important to us to demonstrate our results with color-coordinated graphs and that each visualization was easily filtered by season. Below are examples of our dashboard and attached is the link to our Tableau worksheets.
-* Playoff results visualization, filterable by season and color-coordinated with team's payrolls
-* ![17-18_Playoff_Results](https://user-images.githubusercontent.com/96406929/172761333-739271e0-a9f2-495b-8e12-99d4fd621832.png)
-* Scatter Plot showing each NBA Teams regular season wins compared to their payroll, filterable by season
-* ![21-22_Wins_Vs_Payroll](https://user-images.githubusercontent.com/96406929/172761533-036c645c-3750-439e-9cab-3e4606d99f48.png)
+![Database image](https://user-images.githubusercontent.com/95777297/172761976-007da923-5c21-4e90-89c4-38e14cfbb6da.png)
 
-[link to dashboard](https://public.tableau.com/app/profile/jonathan.moreno6119/viz/NBA_Salaries_and_Stats/RegularSeasonWinsVSPayroll?publish=yes)
 
 ## Data Analysis & Machine Learning 
 
