@@ -74,13 +74,12 @@ Here are the screenshots of the website
 
 <img width="1675" alt="Screen Shot 2022-06-08 at 6 34 06 PM" src="https://user-images.githubusercontent.com/63434761/172745685-1e2a68dc-f8d7-4001-8ee9-fe4c70908e2b.png">
 
+Screenshot with team name filter applied
 <img width="1675" alt="Screen Shot 2022-06-08 at 6 35 12 PM" src="https://user-images.githubusercontent.com/63434761/172745823-5fef2e19-053c-4d71-a2a6-bcbfef6ae5e7.png">
 
-Team name filter applied
-
+Screenshot with team name and season filter applied
 <img width="1673" alt="Screen Shot 2022-06-08 at 6 34 51 PM" src="https://user-images.githubusercontent.com/63434761/172745934-605534c3-7951-4659-afe2-a36a8aee2ac1.png">
 
-Team name and season applied 
 
 ## Conclusion  
 The results indicated that we can predict whether a not a team would make the playoffs with 50% accuracy rating via the Random Forest ML that we used. While this is a decent accuracy score, we are forgetting very important concepts to the game of Basketball. For starters, the stats that we used were mainly focused around the offensive side of the ball and fail to take into account things such as defensive efficiency. These stats are very important to predicting how a team will react when faced with different adversity. We also fail to indicate the advantages of being home or away which provide players with more comfort and slightly more rest. Lastly, we have no way of telling what the impact of injured or absent players are. If our biggest star were not playing, our ML has no way of factoring in that disadvantage. Even so, we believe that this model can be tuned up to add these additional factors, while maintaining a high level of accuracy. 
