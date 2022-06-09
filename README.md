@@ -31,6 +31,16 @@ After finding several NBA data sources on Kaggle, we created a database includin
 
 ![Database image](https://user-images.githubusercontent.com/95777297/172761976-007da923-5c21-4e90-89c4-38e14cfbb6da.png)
 
+## Dashboard
+
+When creating our dashboard we wanted our data visualizations to be interactive, visually appealing and easily recognizable. For these reasons we decided to go with Tableau for our dashboard. After importing our CSV's, we played around with the software to see which graphs and plots would best represent our data. Below are images from our dashboard and the link to our Tableau worksheets. 
+
+* Scatter plot of each NBA team's regular season wins VS their payroll, filterable by season
+* ![21-22_Wins_Vs_Payroll](https://user-images.githubusercontent.com/96406929/172763256-f44e2506-ad02-492e-b7c6-b83133e02096.png)
+* Bar Chart of NBA playoff results, color-coordinated by payroll and filterable by season 
+* ![17-18_Playoff_Results](https://user-images.githubusercontent.com/96406929/172763350-ab9ba8bb-9c97-417b-aed2-449e8559ae99.png)
+
+[link to dashboard](https://public.tableau.com/app/profile/jonathan.moreno6119/viz/NBA_Salaries_and_Stats/RegularSeasonWinsVSPayroll?publish=yes)
 
 ## Data Analysis & Machine Learning 
 
