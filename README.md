@@ -2,7 +2,7 @@
 
 ## Overview
 
-Project is centered around sports analytics with a focus on data from the National Basketbal Association (NBA). Our goal is to determine if there is any correlation between NBA players' salary per team, and wins during the regular season and post season. We also want to be able to look at various statistics within a basketball team and see if there's a certain stat that provides teams with more success, I.E. FGA, 3P%, ASTs. We selected this topic because we want to see what the potential outcomes for future teams might be based on statitics of players and team salary. Furthermore, we feel that based on this data we can potentially predict Win PCT and post season outcomes a year prior to the results. 
+Project is centered around sports analytics with a focus on data from the National Basketball Association (NBA). Our goal is to determine if there is any correlation between NBA players' salary per team, and wins during the regular season and post season. We also want to be able to look at various statistics within a basketball team and see if there's a certain stat that provides teams with more success, I.E. FGA, 3P%, ASTs. We selected this topic because we want to see what the potential outcomes for future teams might be based on statistics of players and team salary. Furthermore, we feel that based on this data we can potentially predict Win PCT and post-season outcomes a year prior to the results. 
 
 ## Questions We Want to Answer
 * Is there a strong correlation between Team Salary and Win PCT?
